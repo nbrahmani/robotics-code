@@ -5,7 +5,7 @@
 https://wiki.dfrobot.com/Gravity_I2C_LIS2DW12_Triple_Axis_Accelerometer_SKU_SEN0409#target_6\
 https://github.com/DFRobot/DFRobot_LIS
 
-### Connections
+### Connections (physical pins)
 
 * '+' => 17 (3.3V pin)
 * '-' => 6 (GND)
@@ -25,3 +25,8 @@ Configuration pin towards 0x19
 
 * sudo chmod a+w x.py
 * python3 dir/file.py
+
+###
+
+* Working on pi and Jetson
+* I2C
