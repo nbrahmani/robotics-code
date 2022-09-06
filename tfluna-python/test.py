@@ -16,7 +16,11 @@ import numpy as np
 # TFLuna Lidar
 ##########################
 #
+# For Pi
 ser = serial.Serial("/dev/serial0", 115200,timeout=0) # mini UART serial device
+
+# For Jetson
+# ser = serial.Serial("/dev/USB0", 115200,timeout=0) # mini UART serial device
 #
 ############################
 # read ToF data from TF-Luna

@@ -4,14 +4,21 @@
 
 https://makersportal.com/blog/distance-detection-with-the-tf-luna-lidar-and-raspberry-pi
 
-### Connections (physical pins)
+### Connections (physical pins) 
+
+(Pi)
 
 * 1 => 2 (5V)
 * 2 => 8
 * 3 => 10
 * 4 => 6 (GND)
 
-Configuration pin towards 0x19
+(Jetson through UART controller)
+
+* 1 => 5V
+* 2 => TX
+* 3 => RX
+* 4 => GND
 
 ### Instructions
 
@@ -21,5 +28,5 @@ Configuration pin towards 0x19
 
 ###
 
-* Working on pi, not on jetson
+* Working on pi, jetson
 * UART
