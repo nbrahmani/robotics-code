@@ -7,11 +7,11 @@ https://maker.pro/raspberry-pi/tutorial/how-to-control-a-dc-motor-with-an-l298-c
 
 ### Connections (physical pins) 
 
-(Pi): BCM mode
+(Pi): BCM mode (GPIO Mode)
 
-* in1 => 24
-* in2 => 23
-* en pins => 25
+* in1 => 24 (physical pin: 18)
+* in2 => 23 (physical pin: 16)
+* en pins => 25 (physical pin: 22)
 * Common ground to pi, power source, driver
 * 9V power source
 * dc motor connection- no order
